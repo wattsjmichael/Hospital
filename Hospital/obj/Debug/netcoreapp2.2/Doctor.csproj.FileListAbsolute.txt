@@ -1,0 +1,6 @@
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.csprojAssemblyReference.cache
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.csproj.CoreCompileInputs.cache
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.RazorAssemblyInfo.cache
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.RazorAssemblyInfo.cs
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.AssemblyInfoInputs.cache
+K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Doctor.AssemblyInfo.cs
