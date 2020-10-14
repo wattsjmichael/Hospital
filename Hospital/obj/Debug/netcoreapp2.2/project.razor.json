@@ -1,5 +1,5 @@
 {
-  "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Doctor.csproj",
+  "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Hospital.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1869,46 +1869,66 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "Doctor",
+  "RootNamespace": "Hospital",
   "Documents": [
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Create.cshtml",
+      "TargetPath": "Views\\Doctors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Home\\Index.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Details.cshtml",
+      "TargetPath": "Views\\Doctors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\_Layout.cshtml",
+      "TargetPath": "Views\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\_ViewStart.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Doctor\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Index.cshtml",
+      "TargetPath": "Views\\Doctors\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

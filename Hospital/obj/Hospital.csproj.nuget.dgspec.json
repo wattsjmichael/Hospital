@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Epicodus-Projects\\CSharp\\doctor.solution\\hospital\\Hospital.csproj": {}
+    "K:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\hospital\\Hospital.csproj": {}
   },
   "projects": {
-    "K:\\Epicodus-Projects\\CSharp\\doctor.solution\\hospital\\Hospital.csproj": {
+    "K:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\hospital\\Hospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\doctor.solution\\hospital\\Hospital.csproj",
+        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\hospital\\Hospital.csproj",
         "projectName": "Hospital",
-        "projectPath": "K:\\Epicodus-Projects\\CSharp\\doctor.solution\\hospital\\Hospital.csproj",
+        "projectPath": "K:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\hospital\\Hospital.csproj",
         "packagesPath": "C:\\Users\\WATTS\\.nuget\\packages\\",
-        "outputPath": "K:\\Epicodus-Projects\\CSharp\\doctor.solution\\hospital\\obj\\",
+        "outputPath": "K:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\hospital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

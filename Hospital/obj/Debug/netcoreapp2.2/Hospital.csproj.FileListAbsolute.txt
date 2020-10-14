@@ -28,3 +28,7 @@ K:\Epicodus-Projects\CSharp\doctor.solution\hospital\bin\Debug\netcoreapp2.2\Hos
 K:\Epicodus-Projects\CSharp\doctor.solution\hospital\bin\Debug\netcoreapp2.2\Hospital.Views.pdb
 K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Hospital.Views.pdb
 K:\Epicodus-Projects\CSharp\doctor.solution\hospital\obj\Debug\netcoreapp2.2\Hospital.csproj.CopyComplete
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Doctors\Create.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Doctors\Index.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Doctors\Details.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\_Layout.g.cshtml.cs
