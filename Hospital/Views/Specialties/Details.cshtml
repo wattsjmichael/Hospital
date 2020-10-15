@@ -1,0 +1,33 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Hospital.Models.Specialty;
+
+<h2>Specialty Details</h2>
+<hr /> 
+<h3>Name: @Html.DisplayFor(model => model.SpecialtyName)</h3>
+
+@if(@Model.Doctors.Count == 0)
+{
+  <p>This Specialty does not have any Doctors</p>
+} 
+else
+{
+  <h4>Doctors:</h4>
+  <ul>
+  @foreach(DoctorSpecialty join in Model.Doctors)
+  {
+    <li>@join.Doctor.DoctorName</li>
+    @using (Html.BeginForm("RemoveDoctor", "Patients"))
+    {
+      @Html.Hidden("DoctorSpecialtyId", @join.DoctorSpecialtyId)
+      <input type="submit" value="Remove" />
+    }
+  }
+  </ul>
+}
+
+<p>@Html.ActionLink("Edit Specialty", "Edit", new { id = Model.SpecialtyId })</p>
+<p>@Html.ActionLink("Delete Specialty", "Delete", new { id = Model.SpecialtyId })</p>
+<p>@Html.ActionLink("Add Doctor", "AddDoctor", new { id = Model.SpecialtyId })</p>

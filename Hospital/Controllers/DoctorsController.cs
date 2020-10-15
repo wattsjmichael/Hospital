@@ -36,6 +36,8 @@ namespace Hospital.Controllers
       Doctor ThisDoctor = _db.Doctors
       .Include(doctor => doctor.Patients)
       .ThenInclude(join => join.Patient)
+      .Include(x => x.Specialties)
+      .ThenInclude(join => join.Specialty)
       .FirstOrDefault(doctor => doctor.DoctorId == id);
       return View(ThisDoctor);
     }
@@ -96,7 +98,32 @@ namespace Hospital.Controllers
       return RedirectToAction("Index");
     }
 
-    
+    public ActionResult AddSpecialty(int id)
+    {
+      Doctor thisDoctor = _db.Doctors.FirstOrDefault(x => x.DoctorId == id);
+      ViewBag.SpecialtyId = new SelectList(_db.Specialties, "SpecialtyId", "SpecialtyName"); //PatientName == Dropdown
+      return View(thisDoctor);
+    }
+
+    [HttpPost]
+    public ActionResult AddSpecialty(Doctor doctor, int SpecialtyId)
+    {
+      if (SpecialtyId != 0)
+      {
+        _db.DoctorSpecialty.Add(new DoctorSpecialty() { DoctorId = doctor.DoctorId, SpecialtyId = SpecialtyId });
+      }
+      _db.SaveChanges();
+      return RedirectToAction("Details", new { id = doctor.DoctorId});
+    }
+
+    [HttpPost]
+    public ActionResult RemoveSpecialty(int DoctorSpecialtyId)
+    {
+      DoctorSpecialty joinEntry = _db.DoctorSpecialty.FirstOrDefault(x => x.DoctorSpecialtyId == DoctorSpecialtyId);
+      _db.DoctorSpecialty.Remove(joinEntry);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
   }
 
 }

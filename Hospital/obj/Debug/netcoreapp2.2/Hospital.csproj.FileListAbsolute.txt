@@ -41,3 +41,9 @@ K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Raz
 K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Doctors\AddPatient.g.cshtml.cs
 K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Patients\AddDoctor.g.cshtml.cs
 K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\Index.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Doctors\AddSpecialty.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\AddDoctor.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\Create.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\Delete.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\Details.g.cshtml.cs
+K:\Epicodus-Projects\CSharp\Doctor.Solution\hospital\obj\Debug\netcoreapp2.2\Razor\Views\Specialties\Edit.g.cshtml.cs
