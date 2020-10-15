@@ -1,0 +1,26 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Hospital.Models.Patient
+
+<h2>Edit</h2>
+<hr />
+
+<h4>Edit this Patient: @Html.DisplayFor(model => model.PatientName)</h4>
+
+@using (Html.BeginForm())
+{
+  <table class="set-table">
+    @Html.HiddenFor(model => model.PatientId)
+    <tr>
+      <td>@Html.LabelFor(model => model.PatientName)</td>
+      <td>@Html.EditorFor(model => model.PatientName)</td>
+    </tr>
+    <tr>
+      <td>@Html.LabelFor(model => model.PatientBirthDate)</td>
+      <td>@Html.EditorFor(model => model.PatientBirthDate)</td>
+    </tr>
+  </table>
+  <input type="submit" value="Save" />
+}

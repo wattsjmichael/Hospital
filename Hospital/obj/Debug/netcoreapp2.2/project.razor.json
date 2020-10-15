@@ -1877,8 +1877,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Edit.cshtml",
+      "TargetPath": "Views\\Doctors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\AddDoctor.cshtml",
+      "TargetPath": "Views\\Patients\\AddDoctor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\Index.cshtml",
+      "TargetPath": "Views\\Patients\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\Details.cshtml",
+      "TargetPath": "Views\\Patients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Delete.cshtml",
+      "TargetPath": "Views\\Doctors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1887,13 +1912,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\Create.cshtml",
+      "TargetPath": "Views\\Patients\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\AddPatient.cshtml",
+      "TargetPath": "Views\\Doctors\\AddPatient.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\Delete.cshtml",
+      "TargetPath": "Views\\Patients\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Details.cshtml",
       "TargetPath": "Views\\Doctors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Specialties\\Index.cshtml",
+      "TargetPath": "Views\\Specialties\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1912,11 +1957,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\_Layout.cshtml",
-      "TargetPath": "Views\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -1929,6 +1969,11 @@
     {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Doctors\\Index.cshtml",
       "TargetPath": "Views\\Doctors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\Doctor.Solution\\Hospital\\Views\\Patients\\Edit.cshtml",
+      "TargetPath": "Views\\Patients\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

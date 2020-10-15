@@ -39,6 +39,65 @@ namespace Hospital.Controllers
       .FirstOrDefault(doctor => doctor.DoctorId == id);
       return View(ThisDoctor);
     }
+
+    public ActionResult Edit(int id)
+    {
+      Doctor thisDoctor = _db.Doctors.FirstOrDefault(x => x.DoctorId == id);
+      return View(thisDoctor);
+    }
+
+    [HttpPost]
+    public ActionResult Edit(Doctor doctor)
+    {
+      _db.Entry(doctor).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
+    public ActionResult Delete(int id)
+    {
+      Doctor thisDoctor = _db.Doctors.FirstOrDefault(x => x.DoctorId == id);
+      return View(thisDoctor);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public ActionResult DeleteConfirmed(int id)
+    {
+      Doctor thisDoctor = _db.Doctors.FirstOrDefault(x => x.DoctorId == id);
+      _db.Doctors.Remove(thisDoctor);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
+    public ActionResult AddPatient(int id)
+    {
+      Doctor thisDoctor = _db.Doctors.FirstOrDefault(x => x.DoctorId == id);
+      ViewBag.PatientId = new SelectList(_db.Patients, "PatientId", "PatientName"); //PatientName == Dropdown
+      return View(thisDoctor);
+    }
+    
+    [HttpPost]
+    public ActionResult AddPatient(Doctor doctor, int PatientId)
+    {
+      if (PatientId != 0)
+      {
+        _db.DoctorPatient.Add(new DoctorPatient() { DoctorId = doctor.DoctorId, PatientId = PatientId });
+      }
+      _db.SaveChanges();
+      return RedirectToAction("Details", new { id = doctor.DoctorId});
+    }
+
+    [HttpPost]
+    public ActionResult RemovePatient(int DoctorPatientId)
+    {
+      DoctorPatient joinEntry = _db.DoctorPatient.FirstOrDefault(x => x.DoctorPatientId == DoctorPatientId);
+      _db.DoctorPatient.Remove(joinEntry);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
+    
   }
+
 }
 

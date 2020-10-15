@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+@model Hospital.Models.Patient
+<h4>Add a new patient</h4>
+@using (Html.BeginForm())
+{
+  @Html.LabelFor(model => model.PatientName)
+  @Html.TextBoxFor(model => model.PatientName)
+  
+  @Html.LabelFor(model => model.PatientBirthDate)
+  @Html.TextBoxFor(model => model.PatientBirthDate)
+
+  <input type="submit" value="Add new Patient" />
+}
